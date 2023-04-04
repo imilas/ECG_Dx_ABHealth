@@ -8,9 +8,8 @@ import matplotlib.pyplot as plt
 from itertools import cycle
 import gzip
 import tensorflow as tf
-import amir_tools_v2 as at
-import torch
 
+# based on work by Riberio et al. https://github.com/antonior92/automatic-ecg-diagnosis/blob/master/model.py
 class ResidualUnit(object):
     """Residual unit block (unidimensional).
     Parameters
