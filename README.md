@@ -5,7 +5,7 @@
     - pip3 for the following libraries:
         - pandas 1.4.2
         - numpy 1.21.6
-        - matplotlib, scikit-learn
+        - matplotlib, scikit-learn, seaborn
 ## See demo_data directory for example data and labels
     - Each 12 ECG stored as a .npy file
     - labels stored in demo_labels.csv

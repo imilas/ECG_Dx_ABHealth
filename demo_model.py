@@ -149,7 +149,7 @@ def get_model_agsx(n_classes, last_layer='sigmoid',dropout_keep=0.8):
 class DataGenerator(keras.utils.Sequence):
     'Generates data for Keras'
     def __init__(self, list_IDs, ecg_labels,age_sex=False, batch_size=64,
-                 n_classes=15, shuffle=False,features_complete=False):
+                 n_classes=15, shuffle=False,):
         'Initialization'
         self.batch_size = batch_size
         self.labels = ecg_labels
